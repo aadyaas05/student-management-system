@@ -1,4 +1,3 @@
-# Feature: User Login Module
 # Student Management System - Main Application
 # Base + Login module merged
 from flask import Flask, jsonify
