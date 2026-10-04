@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: sms-config
+  namespace: sms
+data:
+  DB_HOST: "postgres-service"
+  DB_NAME: "studentdb"
+  DB_USER: "admin"
+  DB_PORT: "5432"
